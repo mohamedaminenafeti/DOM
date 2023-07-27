@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 20px;
+  }
+  
+  .cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .item-name {
+    flex: 1;
+  }
+  
+  .btn-minus,
+  .btn-plus,
+  .btn-delete,
+  .btn-like {
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .total {
+    margin: 20px;
+    font-weight: bold;
+  }
+  
